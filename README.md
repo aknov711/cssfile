@@ -1,7 +1,178 @@
 <html>
     <head>
         <title>Travel Tour</title>
-        <link rel="stylesheet" href="C:\Users\hp\Desktop\My_folder\learn\my_captain_project\travel.css">
+        
+
+        <style>
+            body{
+    background: slategrey;
+    margin-top:50px;
+    padding:0px;
+    margin:0px;
+}
+
+.main{
+    background: white;
+    width:1000px;
+    margin:0 auto ;
+
+    height:auto;
+}
+
+img{
+  width:100px;
+  height:100px;
+  margin-right:80px;
+  padding:0px;
+  float:left;
+}
+
+.header{
+  background-color: lightgreen;
+  height:100px;
+}
+
+.headline{
+  
+  padding:40px 0 0 80px;
+  font-size: 1.9em;
+  margin:auto;
+  padding:0px;
+  padding-top: 20px;
+  float:left;
+
+}
+
+
+.dog{
+  float: right;
+  margin:0px;
+  padding: 0px;
+  height:100px;
+  width:100px;
+}
+
+.content{
+  background-color: lightcoral;
+  width:800px;
+  float:left;
+  min-height: 1442.04px;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+
+.menu{
+  background-color: teal;
+}
+
+.menu>ul>li{
+  display:inline-block;
+}
+
+.menu>ul{
+  list-style-type: none;
+  margin:0px;
+  padding: 0px;
+  
+}
+
+.menu>ul>li>a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding:20px;
+  font-size: larger;
+}
+
+.menu>ul>li>a:hover{
+  background-color: yellow;
+  color: darkred;
+ 
+}
+.sidebar{
+  width:200px;
+  float:right;
+  background-color:lightsalmon;
+  min-height: 1442.04px;
+}
+
+.sidebar ul{
+  list-style-type: none;
+  margin:0px;
+  padding:0px;
+}
+
+.sidebar ul li a{
+  text-decoration: none;
+  padding:20px;
+  font-size: larger;
+  color: blue;
+  display:block;
+  margin:auto;
+}
+
+.sidebar ul li{
+  padding:10 0px;
+}
+
+
+.sidebar ul li a:hover{
+   background-color:black;
+   color: white;
+}
+
+.footer{
+  background-color: black;
+  color:white;
+  height:50px;
+  clear:both;
+  text-align: center;
+  font-size: 1.2em;;
+}
+
+.services>li>a{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  display: block;
+  width:100px;
+  padding:10px;
+  
+}
+
+.services{
+  display: none;
+  list-style-type: none;
+  margin:0px;
+  padding:0px;
+  position: absolute;
+}
+
+.services>li>a:hover{
+  background-color: red;
+  transform: scale(1.5)
+}
+
+.menu>ul>li:hover .services{
+  display:block;
+}
+
+.ksm{
+  border-radius: 20px;
+  height: 200px;
+  width:350px;
+}
+
+.ksm:hover{
+  box-shadow: 10px 10px 10px 10px #0ff;
+  transform: scale(1.18);
+}
+
+.hu{
+   font-size: larger;
+}
+        </style>
     </head>
  
     <body>
